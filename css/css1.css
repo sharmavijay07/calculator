@@ -1,0 +1,126 @@
+body{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#logo{
+    height:9vh;
+    width:3vw;
+    
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    width:45vw;
+    align-items: center;
+    height:9vh;
+}
+nav{
+    background-image: linear-gradient(to right,aqua,blue,red,orange,green);
+    
+    display:flex;
+    justify-content: space-evenly;
+  
+}
+.nav-contents{
+    color:black;
+    text-decoration: none;
+    height:8vh;
+    border:solid;
+    border-width:2px;
+    border-color: transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.nav-contents:hover{
+    border-bottom: solid white;
+    border-width:2px;
+}
+.search_input{
+    background-color:#d1d2d479;
+    border-radius: 0 15px 15px 0;
+    border:none;
+    height: 30px;
+    width:240px;
+    padding:15px;
+  flex-grow: 1;
+  
+  border:0;
+    
+}
+.search_bar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    height: 40px;
+    min-width:200px;
+    width: 30%;
+    height:9vh;
+}
+.search_bar span{
+    color:#d1d2d4f8;
+    font-weight: 300;
+    border-radius: 15px 0 0 15px;
+    background-color:#d1d2d479 ;
+    height: 27px;
+    padding-left:4px;
+    padding-top:4px;
+    box-sizing: content-box;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:6vw;
+    
+    
+    
+}
+.menu-box{
+    display:flex;
+    position: absolute;
+    right:-800px;
+    top:-800px;
+    width:11vw;
+    height:50vh;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom,green,blue,red);
+    padding: 9px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-container a{
+    color:black;
+    border:2px solid;
+    border-color: transparent;
+    padding: 3px;
+   
+}
+.menu-close{
+    cursor:pointer;
+}
+.menu-container a:hover{
+    border-bottom-color:white;
+}
+.menu button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.menu-close button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
